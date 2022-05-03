@@ -1,7 +1,12 @@
+data = open("ai.sys")
+dat = data.read()
+print("Resent:" + dat)
 print("Search Here")
 se = input ("")
 searches = []
 searches.append(se+"*")
+with open ("ai.sys", "w")as f:
+  f.writelines(dat + searches)
 import webbrowser
 opt = input ("Search with the web browser?Y/N")
 if opt == "N":
