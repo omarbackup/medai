@@ -19,10 +19,10 @@ if opt == "N":
     os.startfile(se)
 else:
   webbrowser.se()
-/*
+"""/*
  *
  *
  *
  *   Copyright (c) Tobey_Source
- *              5/6/2022 11:08 PM
- */
+ *              5/6/2022 11:09 PM
+ */"""
