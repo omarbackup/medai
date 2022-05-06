@@ -4,9 +4,9 @@ print("Resent:" + dat)
 print("Search Here")
 se = input ("")
 searches = []
-searches.append(se+"*")
+searches.append(se+"*"+dat)
 with open ("ai.sys", "w")as f:
-  f.writelines(dat + searches)
+  f.writelines(searches)
 import webbrowser
 opt = input ("Search with the web browser?Y/N")
 if opt == "N":
@@ -19,3 +19,10 @@ if opt == "N":
     os.startfile(se)
 else:
   webbrowser.se()
+/*
+ *
+ *
+ *
+ *   Copyright (c) Tobey_Source
+ *              5/6/2022 11:08 PM
+ */
